@@ -8,7 +8,7 @@ set -v
 
 cd oven
 
-echo $IDF_PATH
+echo "$IDF_PATH"
 
 make app
 #idf.py build
