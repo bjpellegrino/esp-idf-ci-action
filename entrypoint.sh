@@ -6,7 +6,5 @@ set -v
 
 . $IDF_PATH/export.sh
 
-cd oven
-
 make app
 #idf.py build
