@@ -6,4 +6,6 @@ set -v
 
 cd oven
 
+python -m pip uninstall kconfiglib
+
 make app
